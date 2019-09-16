@@ -81,7 +81,9 @@ def leave():
   elif(police == "comply"):
     comply()
   else:
-    print("Please choose an option")
+    print("""
+    Please choose an option
+    """)
     leave()
 #option to comply with the police 
 def comply():
@@ -149,7 +151,9 @@ def punch():
   elif(give == "give"):
     groupDie()
   else:
-    print("Please choose an option")
+    print("""
+    Please choose an option
+    """)
     punch()
 #Outcome of giving food
 def groupDie():
